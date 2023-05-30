@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(37, 37, 37);
+    font-size: 15px;
+}
+.containers {
+    margin-top: 10px;
+}
+.h1 {
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 49%;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.input {
+    align-items: center;
+    text-align: center;
+    border-color:white ;
+    background-color: rgb(37, 37, 37);;
+    margin-left: 400px;
+    margin-right: 565px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.input[type="search"] {
+    background-color: rgb(37, 37, 37);;
+}
+.input:hover {
+    border: 1.5px solid ;
+    background-color: rgb(26, 24, 24);
+  }
+
+.content { 
+    margin: 1rem;
+    padding: 3rem 3rem;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.h2 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: rgb(63, 60, 57);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+.topnav {
+    background-color: inherit;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #fdf7f7;
+    padding: 23px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*Change the color links on hover*/
+
+.topnav .b:hover {
+    text-decoration: underline;
+}
+.topnav .a{
+    background-color: rgba(137, 170, 222, 0.851);
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 4px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.hr {
+    border: 0.00000000001px solid rgb(80, 80, 80);
+    margin-top: 20px;
+}
+.p a{
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(137, 170, 222, 0.851);
+    margin-bottom: 170px;
+}
+.p a::before{
+    text-decoration: none;
+    color: rgb(131, 154, 158);
+}
+.p p{
+    color: white;
+}
+.footer  {
+    text-decoration: none;
+    color: #8e8a8a;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(28, 29, 30);
+    margin-left: -6px;
+    margin-right: -6px;
+    margin-bottom: -6px;
+    margin-top: -5px;
+    padding-bottom: 39px;
+    padding-top: 1px;    
+    text-align: left;
+}
+.footer h4 {
+    padding-left: 30px;
+    padding-bottom: -2px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.footer a {
+    color: #948e8e;
+    text-decoration: none;
+    padding: 22px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+    padding-top: 2px;
+    padding-left: 30px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .a2 {
+    display: inline-block;
+    vertical-align: right;
+}
